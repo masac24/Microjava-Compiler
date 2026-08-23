@@ -1,0 +1,48 @@
+program Program
+
+abstract class A {
+	int x[],y[]; 
+	{
+		abstract int getValue(int a);
+	}
+}
+const int pi = 3, e = 2;
+enum Broj { NULA, TRI = 3, PET = 5}
+int a, b;
+class B extends A {
+	int i;
+	{
+		int getValue(int a) int b; bool c;
+		{ 
+			return this.i + this.x[0] + a; 
+		}
+		void m()int a;{
+		
+		}
+	}
+}
+class C extends B {
+	A theA; 
+	int a;
+}
+
+{
+	void main() A a; C c; int i; int x[]; char ch; {
+		a = new A;
+		a.x = new int[5];
+		a.y = new int[5];
+		c = new C;
+		c.theA = a;
+		c.x = new int[Broj.PET];
+		x = new int[Broj.TRI];
+		read(c.i);
+		for(i = 0; i<x.length; i++){
+			read(c.x[i]); 
+			read(c.theA.x[i]);
+		}
+		read(ch);
+		print(ch == 'e' ? e : pi);
+		print(c.getValue(c.theA.x[0]));
+		c.m();
+	}
+}

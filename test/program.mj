@@ -1,0 +1,34 @@
+program MJProgram
+
+int x; int y; int z;
+const int jedan = 1;
+
+{
+	int k(int prvi, char drugi) int c; {
+		c = 2;
+		print(0);
+		print(drugi);
+		return c + prvi;
+	
+	}
+	
+	void main() int niz[]; {
+		x = 1; y = 6; z = 7;
+		switch(x) {
+		    case 1: 
+		        switch(y) {
+		            case 5: print(5);
+		            case 6: print(6);
+		        }
+		        print(100);
+		    case 2: 
+		        switch(z) {
+		            case 7: print(7);
+		        }
+		        print(19);
+		    case 3: print(3);
+		}
+	}
+
+
+}
