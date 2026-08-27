@@ -26,6 +26,3 @@ build.xml  # Ant build script
 
 Java, Cup2/JFlex (lexer & parser generation), Apache Ant (build)
 
-## Author
-
-Maša Cvetanovski — Computer Engineering student, University of Belgrade (ETF)
